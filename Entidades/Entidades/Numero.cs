@@ -19,8 +19,9 @@ namespace Entidades
             this.numero = numero;
         }
 
-        public Numero(string numero):this(int.Parse(numero))
+        public Numero(string numero)
         {
+            this.SetNumero = numero;
         }
 
 
@@ -34,10 +35,10 @@ namespace Entidades
 
         private double ValidarNumero(string strNumero)
         {
-            double bufferInt;
-            if (double.TryParse(strNumero, out bufferInt))
+            double bufferDouble;
+            if (double.TryParse(strNumero.Replace(",","."), out bufferDouble))
             {
-                return bufferInt;
+                return bufferDouble;
             }
             return 0;
         }
@@ -46,7 +47,7 @@ namespace Entidades
         {
             for (int i = 0; i < binario.Length; i++)
             {
-                if (binario[i] != '0' || binario[i] != '1')
+                if (binario[i] != '0' && binario[i] != '1')
                 {
                     return false;
                 }
@@ -74,21 +75,23 @@ namespace Entidades
         public string DecimalBinario(double numero)
         {
             string numeroBinario = "";
-            while (numero / 2 != 0)
+            int bufferInt = (int)numero;
+            while (bufferInt / 2 != 0)
             {
-                numeroBinario = (numero % 2).ToString() + numeroBinario;
-                numero = numero / 2;
+                numeroBinario = (bufferInt % 2).ToString() + numeroBinario;
+                bufferInt = bufferInt / 2;
             }
-            numeroBinario = (numero % 2).ToString() + numeroBinario;
+            numeroBinario = (bufferInt % 2).ToString() + numeroBinario;
             return numeroBinario;
         }
 
         public string DecimalBinario(string numero)
         {
-            double bufferDouble = this.ValidarNumero(numero);
-            if (bufferDouble != 0)
+            double bufferDouble;
+            if (double.TryParse(numero, out bufferDouble))
             {
                 return this.DecimalBinario(bufferDouble);
+
             }
             return "Valor invalido";
         }

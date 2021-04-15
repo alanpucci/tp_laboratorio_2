@@ -19,7 +19,7 @@ namespace MiCalculadora
             InitializeComponent();
         }
 
-        public static double Operar(string numero1, string numero2, string operador)
+        private static double Operar(string numero1, string numero2, string operador)
         {
             Numero primerNumero = new Numero(numero1);
             Numero segundoNumero = new Numero(numero2);
@@ -28,33 +28,39 @@ namespace MiCalculadora
 
         private void FormCalculadora_Load(object sender, EventArgs e)
         {
-            cmbOperador.SelectedIndex = 0;
+            this.cmbOperador.SelectedIndex = 0;
+            this.btnConvertirADecimal.Enabled = false;
+            this.btnConvertirABinario.Enabled = false;
         }
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            if(txtNumero1.Text == "" || txtNumero2.Text == "" || cmbOperador.SelectedIndex == -1)
+            if(this.txtNumero1.Text == "" || this.txtNumero2.Text == "")
             {
                 MessageBox.Show("Debes tener todos los campos llenos para operar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
-            string resultado = FormCalculadora.Operar(txtNumero1.Text, txtNumero2.Text, cmbOperador.SelectedItem.ToString()).ToString();
-            if(resultado == double.MinValue.ToString())
+            string resultado = FormCalculadora.Operar(this.txtNumero1.Text, this.txtNumero2.Text, this.cmbOperador.Text).ToString();
+            if (resultado == double.MinValue.ToString())
             {
                 MessageBox.Show("No se puede dividir por 0", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                lblResultado.Text = "Error";
+                this.lblResultado.Text = "Error";
                 return;
             }
-            lblResultado.Text = resultado;
+            this.lblResultado.Text = resultado;
+            this.btnConvertirABinario.Enabled = true;
+            this.btnConvertirADecimal.Enabled = false;
 
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            txtNumero1.Text = string.Empty;
-            txtNumero2.Text = string.Empty;
-            cmbOperador.SelectedIndex = 0;
-            lblResultado.Text = string.Empty;
+            this.txtNumero1.Text = string.Empty;
+            this.txtNumero2.Text = string.Empty;
+            this.cmbOperador.SelectedIndex = 0;
+            this.lblResultado.Text = string.Empty;
+            this.btnConvertirADecimal.Enabled = false;
+            this.btnConvertirABinario.Enabled = false;
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -64,17 +70,22 @@ namespace MiCalculadora
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
+            if (this.lblResultado.Text != "")
+            {
+                Numero numero = new Numero();
+                this.lblResultado.Text = numero.DecimalBinario(this.lblResultado.Text);
+                this.btnConvertirADecimal.Enabled = true;
+                this.btnConvertirABinario.Enabled = false;
+            }
 
         }
 
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void cmbOperador_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
+            Numero numero = new Numero();
+            this.lblResultado.Text = numero.BinarioDecimal(this.lblResultado.Text);
+            this.btnConvertirADecimal.Enabled = false;
+            this.btnConvertirABinario.Enabled = true;
         }
 
         private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
@@ -82,6 +93,22 @@ namespace MiCalculadora
             if(MessageBox.Show("¿Estás seguro que querés cerrar la calculadora?", "Cerrar", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
             {
                 e.Cancel = true;
+            }
+        }
+
+        private void txtNumero1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if((e.KeyCode == Keys.Oemcomma || e.KeyCode == Keys.OemPeriod || (e.Control && e.KeyCode == Keys.V)) && (this.txtNumero1.Text.Contains(',') || this.txtNumero1.Text.Contains('.')))
+            {
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        private void txtNumero2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if ((e.KeyCode == Keys.Oemcomma || e.KeyCode == Keys.OemPeriod || (e.Control && e.KeyCode == Keys.V)) && (this.txtNumero2.Text.Contains(',') || this.txtNumero2.Text.Contains('.')))
+            {
+                e.SuppressKeyPress = true;
             }
         }
     }

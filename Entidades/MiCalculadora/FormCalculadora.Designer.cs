@@ -55,18 +55,19 @@ namespace MiCalculadora
             resources.GetString("cmbOperador.Items2"),
             resources.GetString("cmbOperador.Items3")});
             this.cmbOperador.Name = "cmbOperador";
-            this.cmbOperador.SelectedIndexChanged += new System.EventHandler(this.cmbOperador_SelectedIndexChanged);
             // 
             // txtNumero1
             // 
             resources.ApplyResources(this.txtNumero1, "txtNumero1");
             this.txtNumero1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNumero1.Name = "txtNumero1";
+            this.txtNumero1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNumero1_KeyDown);
             // 
             // txtNumero2
             // 
             resources.ApplyResources(this.txtNumero2, "txtNumero2");
             this.txtNumero2.Name = "txtNumero2";
+            this.txtNumero2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNumero2_KeyDown);
             // 
             // label1
             // 
