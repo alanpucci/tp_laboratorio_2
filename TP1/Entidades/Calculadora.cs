@@ -36,7 +36,6 @@ namespace Entidades
                     retorno = num1 / num2;
                     break;
                 default:
-                    retorno = num1 + num2;
                     break;
             }
             if(retorno > double.MaxValue)
