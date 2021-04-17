@@ -8,6 +8,11 @@ namespace Entidades
 {
     public static class Calculadora
     {
+        /// <summary>
+        /// Valida que el operador recibido sea +, -, / p *
+        /// </summary>
+        /// <param name="operador">Operador en forma de char</param>
+        /// <returns>Retorna el operador validado convertido en string, de no ser ninguno de los mencionados retornara +</returns>
         private static string ValidarOperador(char operador)
         {
             if(operador == '+' || operador == '-' || operador == '*' || operador == '/')
@@ -17,10 +22,18 @@ namespace Entidades
             return "+";
         }
 
+        /// <summary>
+        /// Recibe dos numeros y hace el calculo correspondiente (suma, resta, division o multiplicacion)
+        /// </summary>
+        /// <param name="num1">Primer numero</param>
+        /// <param name="num2">Segundo numero</param>
+        /// <param name="operador">Operador a utilizar</param>
+        /// <returns>Retorna resultado con 4 decimales</returns>
         public static double Operar(Numero num1, Numero num2, string operador)
         {
             double retorno=0;
-            string bufferOperador = ValidarOperador(char.Parse(operador));
+            char bufferChar = operador != "" ? char.Parse(operador) : '+';
+            string bufferOperador = ValidarOperador(bufferChar);
             switch (bufferOperador)
             {
                 case "+":
@@ -35,12 +48,6 @@ namespace Entidades
                 case "/":
                     retorno = num1 / num2;
                     break;
-                default:
-                    break;
-            }
-            if(retorno > double.MaxValue)
-            {
-                retorno = double.MaxValue;
             }
             return Math.Round(retorno,4);
         }

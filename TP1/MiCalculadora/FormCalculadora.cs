@@ -14,11 +14,21 @@ namespace MiCalculadora
     public partial class FormCalculadora : Form
     {
         
+        /// <summary>
+        /// Constructor del form, instancia todos sus atributos
+        /// </summary>
         public FormCalculadora()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Recibe dos numeros y un operador, realiza el calculo correspondiente al operador
+        /// </summary>
+        /// <param name="numero1">Primer numero a operar</param>
+        /// <param name="numero2">Segundo numero a operar</param>
+        /// <param name="operador">Operador a utilizar</param>
+        /// <returns>Retorna el resultado en double</returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
             Numero primerNumero = new Numero(numero1);
@@ -26,6 +36,9 @@ namespace MiCalculadora
             return Calculadora.Operar(primerNumero, segundoNumero, operador);
         }
 
+        /// <summary>
+        /// Inicializa el combobox en la posicion de la suma y deshabilita los botones de conversion
+        /// </summary>
         private void FormCalculadora_Load(object sender, EventArgs e)
         {
             this.cmbOperador.SelectedIndex = 0;
@@ -33,6 +46,9 @@ namespace MiCalculadora
             this.btnConvertirABinario.Enabled = false;
         }
 
+        /// <summary>
+        /// Boton "Operar", realiza el calculo correspondiente
+        /// </summary>
         private void btnOperar_Click(object sender, EventArgs e)
         {
             if(this.txtNumero1.Text == "" || this.txtNumero2.Text == "")
@@ -53,21 +69,30 @@ namespace MiCalculadora
 
         }
 
+        /// <summary>
+        /// Boton "Limpiar", vacia los inputs, label de resultado y coloca al combobox por defecto (suma)
+        /// </summary>
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             this.txtNumero1.Text = string.Empty;
             this.txtNumero2.Text = string.Empty;
-            this.cmbOperador.SelectedIndex = 0;
             this.lblResultado.Text = string.Empty;
+            this.cmbOperador.SelectedIndex = 0;
             this.btnConvertirADecimal.Enabled = false;
             this.btnConvertirABinario.Enabled = false;
         }
 
+        /// <summary>
+        /// Boton "Cerrar", cierra la aplicacion
+        /// </summary>
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// Boton "Convertir a binario", convierte el resultado (decimal) a binario
+        /// </summary>
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
             if (this.lblResultado.Text != "")
@@ -80,6 +105,9 @@ namespace MiCalculadora
 
         }
 
+        /// <summary>
+        /// Boton "Convertir a decimal", convierte el resultado (binario) a decimal
+        /// </summary>
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
             Numero numero = new Numero();
@@ -88,6 +116,9 @@ namespace MiCalculadora
             this.btnConvertirABinario.Enabled = true;
         }
 
+        /// <summary>
+        /// Metodo que es llamado cuando se quiere cerrar la aplicacion
+        /// </summary>
         private void FormCalculadora_FormClosing(object sender, FormClosingEventArgs e)
         {
             if(MessageBox.Show("¿Estás seguro que querés cerrar la calculadora?", "Cerrar", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
@@ -96,17 +127,23 @@ namespace MiCalculadora
             }
         }
 
+        /// <summary>
+        /// Validacion del primer TextBox, impide el ingreso de letras y el reingreso de alguna , (coma) o . (punto)
+        /// </summary>
         private void txtNumero1_KeyDown(object sender, KeyEventArgs e)
         {
-            if((e.KeyCode == Keys.Oemcomma || e.KeyCode == Keys.OemPeriod || (e.Control && e.KeyCode == Keys.V)) && (this.txtNumero1.Text.Contains(',') || this.txtNumero1.Text.Contains('.')))
+            if((e.KeyCode >= Keys.A && e.KeyCode <= Keys.Z) || (e.KeyCode == Keys.OemPeriod || e.KeyCode == Keys.Oemcomma) && (this.txtNumero1.Text.Contains(',') || this.txtNumero1.Text.Contains('.')))
             {
                 e.SuppressKeyPress = true;
             }
         }
 
+        /// <summary>
+        /// Validacion del segundo TextBox, impide el ingreso de letras y el reingreso de alguna , (coma) o . (punto)
+        /// </summary>
         private void txtNumero2_KeyDown(object sender, KeyEventArgs e)
         {
-            if ((e.KeyCode == Keys.Oemcomma || e.KeyCode == Keys.OemPeriod || (e.Control && e.KeyCode == Keys.V)) && (this.txtNumero2.Text.Contains(',') || this.txtNumero2.Text.Contains('.')))
+            if ((e.KeyCode >= Keys.A && e.KeyCode <= Keys.Z) || (e.KeyCode == Keys.OemPeriod || e.KeyCode == Keys.Oemcomma) && (this.txtNumero2.Text.Contains(',') || this.txtNumero2.Text.Contains('.')))
             {
                 e.SuppressKeyPress = true;
             }

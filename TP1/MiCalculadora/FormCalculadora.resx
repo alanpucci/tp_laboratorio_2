@@ -123,12 +123,6 @@
   <data name="&gt;&gt;btnConvertirABinario.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnConvertirABinario.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtNumero2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnConvertirABinario.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 176</value>
@@ -136,13 +130,16 @@
   <data name="txtNumero2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 25pt</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnConvertirADecimal.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="cmbOperador.Location" type="System.Drawing.Point, System.Drawing">
     <value>231, 61</value>
   </data>
   <data name="&gt;&gt;btnCerrar.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnConvertirABinario.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
@@ -155,9 +152,6 @@
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnConvertirADecimal.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>System</value>
-  </data>
-  <data name="txtNumero1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 25pt</value>
   </data>
   <data name="btnCerrar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>System</value>
@@ -192,6 +186,9 @@
   <data name="cmbOperador.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
+  <data name="btnLimpiar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
   <data name="txtNumero2.Location" type="System.Drawing.Point, System.Drawing">
     <value>346, 62</value>
   </data>
@@ -219,6 +216,9 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="&gt;&gt;btnOperar.Name" xml:space="preserve">
+    <value>btnOperar</value>
+  </data>
   <data name="cmbOperador.Items1" xml:space="preserve">
     <value>-</value>
   </data>
@@ -230,9 +230,6 @@
   </data>
   <data name="&gt;&gt;btnLimpiar.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="lblResultado.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 20.25pt, style=Bold</value>
   </data>
   <data name="btnLimpiar.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -261,9 +258,6 @@
   <data name="lblResultado.Size" type="System.Drawing.Size, System.Drawing">
     <value>537, 38</value>
   </data>
-  <data name="&gt;&gt;btnLimpiar.Name" xml:space="preserve">
-    <value>btnLimpiar</value>
-  </data>
   <data name="btnConvertirADecimal.Size" type="System.Drawing.Size, System.Drawing">
     <value>260, 40</value>
   </data>
@@ -279,8 +273,8 @@
   <data name="cmbOperador.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 25pt</value>
   </data>
-  <data name="&gt;&gt;btnConvertirABinario.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;txtNumero2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnConvertirADecimal.Parent" xml:space="preserve">
     <value>$this</value>
@@ -297,6 +291,12 @@
   <data name="&gt;&gt;cmbOperador.Name" xml:space="preserve">
     <value>cmbOperador</value>
   </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConvertirABinario.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;btnOperar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -309,17 +309,20 @@
   <data name="btnOperar.Text" xml:space="preserve">
     <value>&amp;Operar</value>
   </data>
+  <data name="btnConvertirABinario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
   <data name="txtNumero2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnConvertirADecimal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblResultado.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
   <data name="&gt;&gt;txtNumero1.Name" xml:space="preserve">
     <value>txtNumero1</value>
-  </data>
-  <data name="txtNumero1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 45</value>
   </data>
   <data name="&gt;&gt;btnOperar.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -354,8 +357,8 @@
   <data name="txtNumero1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="btnConvertirABinario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
+  <data name="txtNumero1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 45</value>
   </data>
   <data name="&gt;&gt;txtNumero1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -378,16 +381,13 @@
   <data name="btnCerrar.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="btnLimpiar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>System</value>
-  </data>
-  <data name="btnLimpiar.Text" xml:space="preserve">
-    <value>&amp;Limpiar</value>
+  <data name="&gt;&gt;btnLimpiar.Name" xml:space="preserve">
+    <value>btnLimpiar</value>
   </data>
   <data name="&gt;&gt;txtNumero1.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;btnConvertirADecimal.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnConvertirABinario.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnOperar.TabIndex" type="System.Int32, mscorlib">
@@ -396,8 +396,8 @@
   <data name="cmbOperador.Items3" xml:space="preserve">
     <value>/</value>
   </data>
-  <data name="btnConvertirADecimal.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="txtNumero1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 25pt</value>
   </data>
   <data name="&gt;&gt;btnCerrar.Name" xml:space="preserve">
     <value>btnCerrar</value>
@@ -408,14 +408,14 @@
   <data name="&gt;&gt;btnConvertirADecimal.Name" xml:space="preserve">
     <value>btnConvertirADecimal</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblResultado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 20.25pt, style=Bold</value>
   </data>
   <data name="btnConvertirADecimal.Text" xml:space="preserve">
     <value>Convertir a &amp;Decimal</value>
   </data>
-  <data name="&gt;&gt;btnOperar.Name" xml:space="preserve">
-    <value>btnOperar</value>
+  <data name="btnLimpiar.Text" xml:space="preserve">
+    <value>&amp;Limpiar</value>
   </data>
   <data name="&gt;&gt;txtNumero2.Name" xml:space="preserve">
     <value>txtNumero2</value>
@@ -427,6 +427,6 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>es-AR</value>
+    <value>en-US</value>
   </metadata>
 </root>
