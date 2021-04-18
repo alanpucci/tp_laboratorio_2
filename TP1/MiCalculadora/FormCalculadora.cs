@@ -61,6 +61,8 @@ namespace MiCalculadora
             {
                 MessageBox.Show("No se puede dividir por 0", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 this.lblResultado.Text = "Error";
+                this.btnConvertirABinario.Enabled = false;
+                this.btnConvertirADecimal.Enabled = false;
                 return;
             }
             this.lblResultado.Text = resultado;
