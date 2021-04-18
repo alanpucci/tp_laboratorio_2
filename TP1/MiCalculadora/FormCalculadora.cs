@@ -99,7 +99,10 @@ namespace MiCalculadora
             {
                 Numero numero = new Numero();
                 this.lblResultado.Text = numero.DecimalBinario(this.lblResultado.Text);
-                this.btnConvertirADecimal.Enabled = true;
+                if(this.lblResultado.Text != "Valor invalido")
+                {
+                    this.btnConvertirADecimal.Enabled = true;
+                }
                 this.btnConvertirABinario.Enabled = false;
             }
 
@@ -143,6 +146,7 @@ namespace MiCalculadora
         /// </summary>
         private void txtNumero2_KeyDown(object sender, KeyEventArgs e)
         {
+            Clipboard.GetData(this.lblResultado.Text);
             if ((e.KeyCode >= Keys.A && e.KeyCode <= Keys.Z) || (e.KeyCode == Keys.OemPeriod || e.KeyCode == Keys.Oemcomma) && (this.txtNumero2.Text.Contains(',') || this.txtNumero2.Text.Contains('.')))
             {
                 e.SuppressKeyPress = true;

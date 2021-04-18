@@ -12,7 +12,7 @@ namespace Entidades
         private double numero;
 
         /// <summary>
-        /// Constructor por defecto, inicializa numero en 0
+        /// Constructor por defecto, inicializa 'numero' en 0
         /// </summary>
         public Numero()
         {
@@ -20,25 +20,25 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Inicializa numero con el argumento recibido en formato double
+        /// Inicializa 'numero' con el argumento recibido en formato double
         /// </summary>
         /// <param name="numero">Numero a asignar al atributo numero</param>
-        public Numero(double numero)
+        public Numero(double numero): this()
         {
             this.numero = numero;
         }
 
         /// <summary>
-        ///  Inicializa numero con el argumento recibido en formato string
+        /// Convierte el string recibido en formato double e inicializa 'numero'
         /// </summary>
         /// <param name="numero">String a convertir y asignar al atributo numero</param>
-        public Numero(string numero)
+        public Numero(string numero):this()
         {
             this.SetNumero = numero;
         }
 
         /// <summary>
-        /// Propiedad que asigna un valor al atributo numero
+        /// Propiedad que asigna un valor a 'numero'
         /// </summary>
         public string SetNumero
         {
@@ -123,11 +123,9 @@ namespace Entidades
         /// <returns>El valor convertido a binario</returns>
         public string DecimalBinario(string numero)
         {
-            double bufferDouble;
-            if (double.TryParse(numero, out bufferDouble))
+            if(double.TryParse(numero, out double bufferDouble) && bufferDouble < int.MaxValue)
             {
                 return this.DecimalBinario(bufferDouble);
-
             }
             return "Valor invalido";
         }
