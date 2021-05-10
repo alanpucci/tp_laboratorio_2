@@ -25,6 +25,13 @@ namespace Entidades
             this.tipo = ETipo.CuatroPuertas;
         }
 
+        /// <summary>
+        /// Constructor de Sedan, inicializa sus atributos
+        /// </summary>
+        /// <param name="marca">Valor a inicializar de marca</param>
+        /// <param name="chasis">Valor a inicializar de chasis</param>
+        /// <param name="color">Valor a inicializar de color</param>
+        /// <param name="tipo">Valor a inicializar de tipo</param>
         public Sedan(EMarca marca, string chasis, ConsoleColor color, ETipo tipo)
             :this(marca, chasis, color)
         {
@@ -42,6 +49,10 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Retorna todos los datos del Sedan
+        /// </summary>
+        /// <returns></returns>
         public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

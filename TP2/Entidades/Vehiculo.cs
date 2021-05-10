@@ -23,6 +23,12 @@ namespace Entidades
         private string chasis;
         private ConsoleColor color;
 
+        /// <summary>
+        /// Constructor de vehiculo, inicializa sus atributos
+        /// </summary>
+        /// <param name="chasis">Valor a inicializar de chasis</param>
+        /// <param name="marca">Valor a inicializar de marca</param>
+        /// <param name="color">Valor a inicializar de color</param>
         public Vehiculo(string chasis, EMarca marca, ConsoleColor color)
         {
             this.chasis = chasis;
@@ -44,6 +50,10 @@ namespace Entidades
             return (string)this;
         }
 
+        /// <summary>
+        /// Retorna todos los datos de vehiculo
+        /// </summary>
+        /// <param name="p"></param>
         public static explicit operator string(Vehiculo p)
         {
             StringBuilder sb = new StringBuilder();
