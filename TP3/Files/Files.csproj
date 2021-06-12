@@ -44,11 +44,12 @@
     <Compile Include="FilesHandler.cs" />
     <Compile Include="IFiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextHandler.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entidades\Entities.csproj">
+    <ProjectReference Include="..\Entidades\Entities.Computers.csproj">
       <Project>{bccc2f4a-64e9-40eb-b325-58b7a82dd100}</Project>
-      <Name>Entities</Name>
+      <Name>Entities.Computers</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

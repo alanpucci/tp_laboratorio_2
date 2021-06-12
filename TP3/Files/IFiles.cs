@@ -7,9 +7,9 @@ using Entities;
 
 namespace Files
 {
-    public interface IFiles<T> where T:List<Computer>
+    public interface IFiles<T>
     {
-        bool SaveFile(T t, string fileName);
+        void SaveFile(T t, string fileName);
         T ReadFile(string fileName);
     }
 }

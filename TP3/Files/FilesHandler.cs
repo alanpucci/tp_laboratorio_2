@@ -10,9 +10,9 @@ using System.Xml.Serialization;
 
 namespace Files
 {
-    public class FilesHandler<T>: IFiles<T> where T: List<Computer>
+    public class FilesHandler<T>: IFiles<T> 
     {
-        public bool SaveFile(T t, string fileName)
+        public void SaveFile(T t, string fileName)
         {
             try
             {
@@ -21,7 +21,6 @@ namespace Files
                 {
                     XmlSerializer xmlWriter = new XmlSerializer(typeof(T));
                     xmlWriter.Serialize(fileWriter, t);
-                    return true;
                 }
             }
             catch (Exception ex)
@@ -37,7 +36,7 @@ namespace Files
                 string file = AppDomain.CurrentDomain.BaseDirectory + fileName;
                 if (!File.Exists(file))
                 {
-                    throw new Exception("Ruta inválida.");
+                    throw new FileNotFoundException("Ruta inválida.");
                 }
                 using (XmlTextReader fileReader = new XmlTextReader(file))
                 {
@@ -45,10 +44,16 @@ namespace Files
                     return (T)xmlReader.Deserialize(fileReader);
                 }
             }
+            catch(FileNotFoundException ex)
+            {
+                throw ex;
+            }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
+
+        
     }
 }

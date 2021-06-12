@@ -46,17 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmSignIn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmSignIn.Designer.cs">
+      <DependentUpon>FrmSignIn.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmComputer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmComputer.Designer.cs">
       <DependentUpon>FrmComputer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserPanel.Designer.cs">
+      <DependentUpon>FrmUserPanel.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmRecepcionistComputers.cs">
       <SubType>Form</SubType>
@@ -78,11 +84,14 @@
     <Compile Include="FrmUser.Designer.cs">
       <DependentUpon>FrmUser.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="FrmSignIn.resx">
+      <DependentUpon>FrmSignIn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmComputer.resx">
       <DependentUpon>FrmComputer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserPanel.resx">
+      <DependentUpon>FrmUserPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRecepcionistComputers.resx">
       <DependentUpon>FrmRecepcionistComputers.cs</DependentUpon>
@@ -124,9 +133,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entidades\Entities.csproj">
+    <ProjectReference Include="..\Entidades\Entities.Computers.csproj">
       <Project>{bccc2f4a-64e9-40eb-b325-58b7a82dd100}</Project>
-      <Name>Entities</Name>
+      <Name>Entities.Computers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entities.Users\Entities.Users.csproj">
+      <Project>{fa609284-fa56-4828-9d9f-1c69fb005c56}</Project>
+      <Name>Entities.Users</Name>
     </ProjectReference>
     <ProjectReference Include="..\Files\Files.csproj">
       <Project>{d5057268-2116-42c6-bd5a-cb9493611570}</Project>

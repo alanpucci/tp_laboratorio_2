@@ -15,14 +15,17 @@ namespace FrmPrincipal
     public partial class FrmComputer : Form
     {
         Computer computer;
+        Computer newComputer;
+        User user;
         ToDo toDo;
-        public FrmComputer()
+        public FrmComputer(User user)
         {
             InitializeComponent();
             this.toDo = ToDo.Add;
+            this.user = user;
         }
 
-        public FrmComputer(Computer computer, ToDo toDo):this()
+        public FrmComputer(User user, Computer computer, ToDo toDo):this(user)
         {
             this.computer = computer;
             this.toDo = toDo;
@@ -30,16 +33,16 @@ namespace FrmPrincipal
 
         private void FrmAddComputer_Load(object sender, EventArgs e)
         {
-            this.ModifyTitle();
             this.cmbOS.DataSource = Enum.GetValues(typeof(OS));
             this.cmbGraphicCard.DataSource = Enum.GetValues(typeof(GraphicCard));
             this.cmbHardDisk.DataSource = Enum.GetValues(typeof(HardDisk));
             this.cmbProcessor.DataSource = Enum.GetValues(typeof(Processor));
             this.cmbRAM.DataSource = Enum.GetValues(typeof(RAM));
             this.cmbType.DataSource = Enum.GetValues(typeof(ComType));
-            if(!(computer is null))
+            if (!(computer is null))
             {
                 this.txtClientName.Text = computer.ClientName;
+                this.txtClientName.Enabled = false;
                 this.rtbDesc.Text = computer.Desc;
                 this.cmbOS.SelectedItem = computer.OperativeSystem;
                 this.cmbGraphicCard.SelectedItem = computer.ComputerGraphicCard;
@@ -47,43 +50,78 @@ namespace FrmPrincipal
                 this.cmbProcessor.SelectedItem = computer.ComputerProcessor;
                 this.cmbRAM.SelectedItem = computer.ComputerRAM;
                 this.cmbType.SelectedItem = computer.ComputerType;
+                this.cmbType.Enabled = false;
+                this.ShowSelectors(true);
+                if(computer is Notebook)
+                {
+                    this.cmbExtra.SelectedItem = ((Notebook)computer).Brand;
+                    this.chkAccesory1.Checked = ((Notebook)computer).Charger;
+                    this.chkAccesory2.Checked = ((Notebook)computer).TouchScreen;
+                }
+                else
+                {
+                    this.cmbExtra.SelectedItem = ((Desktop)computer).Cooler;
+                    this.chkAccesory1.Checked = ((Desktop)computer).DvdBurner;
+                    this.chkAccesory2.Checked = ((Desktop)computer).ExtraAccesory;
+                }
             }
-            //this.cmbOS.SelectedIndex = -1;
-            //this.cmbGraphicCard.SelectedIndex = -1;
-            //this.cmbHardDisk.SelectedIndex = -1;
-            //this.cmbProcessor.SelectedIndex = -1;
-            //this.cmbRAM.SelectedIndex = -1;
-            //this.cmbType.SelectedIndex = -1;
+            else
+            {
+                this.cmbOS.SelectedIndex = -1;
+                this.cmbGraphicCard.SelectedIndex = -1;
+                this.cmbHardDisk.SelectedIndex = -1;
+                this.cmbProcessor.SelectedIndex = -1;
+                this.cmbRAM.SelectedIndex = -1;
+                this.cmbType.SelectedIndex = -1;
+                this.ShowSelectors(false);
+            }
+            this.ModifyModal();
         }
 
         private void btnAccept_Click(object sender, EventArgs e)
         {
             try
             {
+                if (!this.EnableAccept())
+                {
+                    throw new Exception("Debes llenar todos los campos.");
+                }
                 if (this.cmbType.SelectedIndex == 0)
                 {
-                    Notebook notebook = new Notebook(this.txtClientName.Text, Brand.Apple,(OS)this.cmbOS.SelectedItem,(ComType)this.cmbType.SelectedItem,
-                        (Processor)this.cmbProcessor.SelectedItem, (HardDisk)this.cmbHardDisk.SelectedItem, (RAM)this.cmbRAM.SelectedItem,this.rtbDesc.Text);
-                    if(!(computer is null))
+                    this.newComputer = new Notebook(this.txtClientName.Text, (Brand)this.cmbExtra.SelectedItem, this.chkAccesory1.Checked,this.chkAccesory2.Checked,(OS)this.cmbOS.SelectedItem,
+                        (ComType)this.cmbType.SelectedItem, (Processor)this.cmbProcessor.SelectedItem, (HardDisk)this.cmbHardDisk.SelectedItem, (RAM)this.cmbRAM.SelectedItem,this.rtbDesc.Text, (GraphicCard)this.cmbGraphicCard.SelectedItem);
+                }
+                else
+                {
+                    this.newComputer = new Desktop(this.txtClientName.Text, (Cooler)this.cmbExtra.SelectedItem, this.chkAccesory1.Checked, this.chkAccesory2.Checked, (OS)this.cmbOS.SelectedItem,
+                        (ComType)this.cmbType.SelectedItem, (Processor)this.cmbProcessor.SelectedItem, (HardDisk)this.cmbHardDisk.SelectedItem, (RAM)this.cmbRAM.SelectedItem, this.rtbDesc.Text, (GraphicCard)this.cmbGraphicCard.SelectedItem);
+                }
+                if (!(this.computer is null))
+                {
+                    if(this.toDo == ToDo.Repair)
                     {
-                        notebook.ComputerState = this.toDo == ToDo.Repair ? State.Reparada : notebook.ComputerState;
-                        CoreProcedure<List<Computer>>.UpdateComputer(computer, notebook);
-                        MessageBox.Show("¡La computadora fue modificada exitosamente!", "Info", MessageBoxButtons.OK);
+                        ((Technician)this.user).Repair(this.computer, this.newComputer);
+                        MessageBox.Show("¡La computadora fue reparada exitosamente!\n" +
+                            "¡No te olvides de enviarsela al recepcionista!", "Reparar", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        if (CoreProcedure<List<Computer>>.AddComputer(notebook))
-                        {
-                            MessageBox.Show("¡La computadora se cargó exitosamente dentro del sistema!", "Info", MessageBoxButtons.OK);
-                        }
+                        this.user.UpdateComputer(this.computer, this.newComputer);
+                        MessageBox.Show("¡La computadora fue modificada exitosamente!", "Modificar", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
-                    this.Close();
                 }
+                else
+                {
+                    if (((Recepcionist)this.user).AddComputer(this.newComputer))
+                    {
+                        MessageBox.Show("¡La computadora se cargó exitosamente dentro del sistema!", "Info", MessageBoxButtons.OK,MessageBoxIcon.Information);
+                    }
+                }
+                this.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Close();
             }
         }
 
@@ -92,20 +130,71 @@ namespace FrmPrincipal
             this.Close();
         }
 
-        private void ModifyTitle()
+        private void ShowSelectors(bool state)
         {
+            this.cmbExtra.Visible = state;
+            this.lblExtra.Visible = state;
+            this.chkAccesory1.Visible = state;
+            this.chkAccesory2.Visible = state;
+        }
+
+        private void ModifyModal()
+        {
+            this.HandleButtons(true);
             switch (this.toDo)
             {
                 case ToDo.Edit:
-                    this.Text = "Modificar computadora";
+                    this.lblTitle.Text = "Modificar computadora";
+                    this.lblDescription.Text = "・No es necesario que modifiques todos los componentes";
                     break;
                 case ToDo.Repair:
-                    this.Text = "Reparar computadora";
+                    this.lblTitle.Text = "Reparar computadora";
+                    this.lblDescription.Text = "・Es necesario que modifiques algún componente y cambiar la descripción";
+                    this.txtClientName.ReadOnly = true;
+                    this.cmbType.Enabled = false;
                     break;
                 default:
-                    this.Text = "Agregar computadora";
+                    this.lblTitle.Text = "Agregar computadora";
+                    this.lblDescription.Text = "・Llena todos los campos para cargar la computadora";
+                    this.HandleButtons(false);
                     break;
             }
+        }
+
+        private void cmbType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            this.ShowSelectors(true);
+            this.HandleButtons(true);
+            if (this.cmbType.SelectedIndex == 0)
+            {
+                this.lblExtra.Text = "Marca";
+                this.cmbExtra.DataSource = Enum.GetValues(typeof(Brand));
+                this.chkAccesory1.Text = "Cargador";
+                this.chkAccesory2.Text = "Pantalla táctil";
+            }
+            else
+            {
+                this.lblExtra.Text = "Cooler";
+                this.cmbExtra.DataSource = Enum.GetValues(typeof(Cooler));
+                this.chkAccesory1.Text = "Grabadora DVD";
+                this.chkAccesory2.Text = "Accesorio extra";
+            }
+            this.cmbExtra.SelectedIndex = -1;
+        }
+
+        private void HandleButtons(bool state)
+        {
+            this.cmbOS.Enabled = state;
+            this.cmbGraphicCard.Enabled = state;
+            this.cmbHardDisk.Enabled = state;
+            this.cmbProcessor.Enabled = state;
+            this.cmbRAM.Enabled = state;
+        }
+
+        private bool EnableAccept()
+        {
+            return (this.cmbType.SelectedIndex != -1 && this.cmbOS.SelectedIndex != -1 && this.cmbHardDisk.SelectedIndex != -1 && this.cmbProcessor.SelectedIndex != -1 &&
+                    this.cmbGraphicCard.SelectedIndex != -1 && this.cmbExtra.SelectedIndex != -1 && this.txtClientName.Text.Trim() != "" && this.rtbDesc.Text.Trim() != "");
         }
     }
 }

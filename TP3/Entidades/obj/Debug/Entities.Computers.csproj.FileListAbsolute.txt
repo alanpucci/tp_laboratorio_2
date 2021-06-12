@@ -1,0 +1,6 @@
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entidades\bin\Debug\Entities.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entidades\bin\Debug\Entities.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entidades\obj\Debug\Entities.Computers.csproj.CoreCompileInputs.cache
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entidades\obj\Debug\Entities.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entidades\obj\Debug\Entities.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entidades\obj\Debug\Entities.Computers.csprojAssemblyReference.cache

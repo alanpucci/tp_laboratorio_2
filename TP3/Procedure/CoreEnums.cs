@@ -10,6 +10,7 @@ namespace Procedure
     {
         Add,
         Edit,
-        Repair
+        Repair,
+        Deliver
     }
 }

@@ -1,0 +1,13 @@
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\bin\Debug\Entities.Users.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\bin\Debug\Entities.Users.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\bin\Debug\Entities.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\bin\Debug\Procedure.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\bin\Debug\Files.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\bin\Debug\Entities.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\bin\Debug\Procedure.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\bin\Debug\Files.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\obj\Debug\Entities.Users.csprojAssemblyReference.cache
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\obj\Debug\Entities.Users.csproj.CoreCompileInputs.cache
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\obj\Debug\Entities.Users.csproj.CopyComplete
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\obj\Debug\Entities.Users.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Entities.Users\obj\Debug\Entities.Users.pdb

@@ -22,7 +22,6 @@ namespace Entities
     {
         Linux,
         Windows,
-        macOS
     }
 
     public enum RAM
@@ -57,8 +56,15 @@ namespace Entities
         AsRock,
         HP,
         Dell,
-        Apple,
         Lenovo
+    }
+
+    public enum Cooler
+    {
+        MasterHyper,
+        DeepcoolGammax,
+        ArcticFreezer,
+        Honeywell
     }
 
     public enum State

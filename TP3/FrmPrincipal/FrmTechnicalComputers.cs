@@ -14,51 +14,56 @@ namespace FrmPrincipal
 {
     public partial class FrmTechnicalComputers : Form
     {
-        Technical tech;
+        Technician tech;
         int showIndex;
-        public FrmTechnicalComputers(Technical tech)
+        public FrmTechnicalComputers(Technician tech)
         {
             InitializeComponent();
             this.tech = tech;
             this.showIndex = 0;
         }
 
-        private void FrmTechnical_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            //if (MessageBox.Show("¿Está seguro que desea cerrar sesión?", "Cerrar sesión", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
-            //{
-            //    e.Cancel = true;
-            //}
-        }
-
         private void FrmTechnical_Load(object sender, EventArgs e)
         {
             this.ReloadData();
+            this.cmbShow.SelectedIndex = 0;
         }
         private void ReloadData()
         {
-            this.dgvComputers.DataSource = null;
-            BindingSource bSource = new BindingSource();
-            bSource.DataSource = this.GetComputers(showIndex);
-            this.dgvComputers.DataSource = bSource;
+            try
+            {
+                this.dgvComputers.DataSource = null;
+                BindingSource bSource = new BindingSource();
+                bSource.DataSource = GetComputers(showIndex);
+                this.dgvComputers.DataSource = bSource;
+                if (this.dgvComputers.CurrentRow is null)
+                {
+                    this.btnRepair.Enabled = false;
+                }
+                else
+                {
+                    this.EnableDeliverButton((Computer)this.dgvComputers.CurrentRow.DataBoundItem);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
         }
 
         private List<Computer> GetComputers(int index)
         {
             switch (index)
             {
-                case 1:
+                case 0:
                     return CoreProcedure<List<Computer>>.ToRepairComputers;
-                break;
-                case 2:
+                case 1:
                     return CoreProcedure<List<Computer>>.RepairedComputers;
-                break;
                 default:
                     List<Computer> list = new List<Computer>();
                     list.AddRange(CoreProcedure<List<Computer>>.RepairedComputers);
                     list.AddRange(CoreProcedure<List<Computer>>.ToRepairComputers);
                     return list;
-                break;
             }
         }
 
@@ -77,7 +82,8 @@ namespace FrmPrincipal
                     throw new Exception("No tienes ninguna computadora selecionada");
                 }
                 Computer computer = (Computer)this.dgvComputers.CurrentRow.DataBoundItem;
-                FrmComputer frmComputer = new FrmComputer(computer, ToDo.Repair);
+                FrmComputer frmComputer = new FrmComputer(tech, computer, ToDo.Repair);
+                this.Hide();
                 frmComputer.ShowDialog();
                 this.ReloadData();
             }
@@ -101,7 +107,7 @@ namespace FrmPrincipal
                     throw new Exception("No tienes ninguna computadora selecionada");
                 }
                 Computer computer = (Computer)this.dgvComputers.CurrentRow.DataBoundItem;
-                CoreProcedure<List<Computer>>.UpdateState(computer, State.PorEntregar);
+                this.tech.Deliver(computer);
                 MessageBox.Show("Se entregó la computadora al recepcionista", "Entregada", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.ReloadData();
             }
@@ -111,5 +117,39 @@ namespace FrmPrincipal
             }
         }
 
+        private void dgvComputers_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                if (this.dgvComputers.CurrentRow is null)
+                {
+                    throw new Exception("La lista está vacia");
+                }
+                Computer computer = (Computer)this.dgvComputers.CurrentRow.DataBoundItem;
+                this.EnableDeliverButton(computer);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void EnableDeliverButton(Computer computer)
+        {
+            if (computer.ComputerState == State.Reparada)
+            {
+                this.btnRepair.Enabled = false;
+                this.btnDeliver.Enabled = true;
+                this.btnRepair.BackColor = Color.LightGray;
+                this.btnDeliver.BackColor = Color.FromArgb(70, 100, 200);
+            }
+            else
+            {
+                this.btnDeliver.Enabled = false;
+                this.btnRepair.Enabled = true;
+                this.btnDeliver.BackColor = Color.LightGray;
+                this.btnRepair.BackColor = Color.FromArgb(70, 100, 200);
+            }
+        }
     }
 }

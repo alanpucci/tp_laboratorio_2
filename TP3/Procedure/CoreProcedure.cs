@@ -14,12 +14,10 @@ namespace Procedure
     public static class CoreProcedure<T> where T: List<Computer>
     {
         private const int MAXSTOCKWAITING = 10;
-        private static List<User> users;
         private static T computers;
 
         static CoreProcedure()
         {
-            users = new List<User>();
             computers = LoadComputers();
         }
 
@@ -27,7 +25,7 @@ namespace Procedure
         {
             get
             {
-                return computers.Count < MAXSTOCKWAITING;
+                return ReceivedComputers.Count < MAXSTOCKWAITING;
             }
         }
 
@@ -95,7 +93,7 @@ namespace Procedure
                     computers.Add(u);
                     return true;
                 }
-                throw new Exception("No hay mas espacio");
+                throw new Exception("No hay espacio para cargar la computadora.\nPor favor, asigna las computadoras al técnico");
             }
             catch (Exception ex)
             {
@@ -103,18 +101,18 @@ namespace Procedure
             }
         }
 
-        //Agregar Interfaz para que sea mas generica
-        public static T UpdateComputer<U>(U t, U u) where U: Computer
+        public static bool UpdateComputer<U>(U t, U u) where U: Computer
         {
             for (int i = 0; i < computers.Count; i++)
             {
                 if (computers[i] == t)
                 {
+                    u.Date = t.Date;
                     computers[i] = u;
-                    return computers;
+                    return true;
                 }
             }
-            return computers;
+            return false;
         }
 
         public static T UpdateState<U>(U t, State state) where U : Computer
@@ -139,15 +137,22 @@ namespace Procedure
 
         public static bool DeleteComputer<U>(U u) where U: Computer
         {
-            for (int i = 0; i < computers.Count; i++)
+            try
             {
-                if (computers[i] == u)
+                for (int i = 0; i < computers.Count; i++)
                 {
-                    computers.RemoveAt(i);
-                    return true;
+                    if (computers[i] == u)
+                    {
+                        computers.RemoveAt(i);
+                        return true;
+                    }
                 }
+                return false;
             }
-            return false;
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         private static T LoadComputers()
@@ -159,7 +164,7 @@ namespace Procedure
             }
             catch (Exception)
             {
-                return default(T);
+                return (T)new List<Computer>();
             }
         }
 
