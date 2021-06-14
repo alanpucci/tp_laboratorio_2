@@ -12,6 +12,8 @@ namespace SignIn
     public class SignInHandler : ISignIn, IFiles<User>
     {
         private const string RECEPTIONIST = "recepcionista";
+        private const string TECHNICIAN = "tecnico";
+        private const string GLOBALPASSWORD = "12345";
 
         /// <summary>
         /// Sign in a user by username and password
@@ -37,17 +39,17 @@ namespace SignIn
             }
             catch (FileNotFoundException)
             { 
-                if(username.Trim().ToLower() == RECEPTIONIST && password == "12345")
+                if(username.Trim().ToLower() == RECEPTIONIST && password == GLOBALPASSWORD)
                 {
-                    Receptionist receptionist = new Receptionist("Alan", "Pucci", username.Trim().ToLower(), password);
+                    Receptionist receptionist = new Receptionist("Recepcionista", "Soy", username.Trim().ToLower(), password);
                     this.SaveFile(receptionist, "receptionist.xml");
                     return receptionist;
                 }
                 else
                 {
-                    if (username == "tecnico" && password == "12345")
+                    if (username == TECHNICIAN && password == GLOBALPASSWORD)
                     {
-                        Technician technician = new Technician("Alan", "Pucci", username.Trim().ToLower(), password);
+                        Technician technician = new Technician("Técnico", "Soy", username.Trim().ToLower(), password);
                         this.SaveFile(technician, "technician.xml");
                         return technician;
                     }
