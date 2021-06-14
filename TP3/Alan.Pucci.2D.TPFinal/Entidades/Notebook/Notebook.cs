@@ -35,7 +35,7 @@ namespace Entities
         /// <param name="ram">RAM to initialize</param>
         /// <param name="desc">Description to initialize</param>
         /// <param name="graphicCard">Graphic card to initialize</param>
-        public Notebook(string clientName, Brand brand, bool touchScreen, bool charger,OS os, ComType type, Processor processor, HardDisk hardDisk, RAM ram, string desc, GraphicCard graphicCard)
+        public Notebook(string clientName, Brand brand,bool charger, bool touchScreen, OS os, ComType type, Processor processor, HardDisk hardDisk, RAM ram, string desc, GraphicCard graphicCard)
             :base(clientName, os,type,processor,hardDisk,ram,desc, graphicCard)
         {
             this.brand = brand;
