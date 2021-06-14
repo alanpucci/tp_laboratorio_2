@@ -92,7 +92,7 @@ namespace FrmPrincipal
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(284, 42);
             this.btnSignIn.TabIndex = 5;
-            this.btnSignIn.Text = "&Iniciar sesión";
+            this.btnSignIn.Text = "Iniciar sesión";
             this.btnSignIn.UseVisualStyleBackColor = false;
             this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click);
             // 
@@ -107,7 +107,7 @@ namespace FrmPrincipal
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.Size = new System.Drawing.Size(140, 41);
             this.btnHelp.TabIndex = 6;
-            this.btnHelp.Text = "&Ayuda";
+            this.btnHelp.Text = "Ayuda";
             this.btnHelp.UseVisualStyleBackColor = false;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
@@ -123,7 +123,7 @@ namespace FrmPrincipal
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(140, 41);
             this.btnClose.TabIndex = 7;
-            this.btnClose.Text = "&Salir";
+            this.btnClose.Text = "Salir";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
