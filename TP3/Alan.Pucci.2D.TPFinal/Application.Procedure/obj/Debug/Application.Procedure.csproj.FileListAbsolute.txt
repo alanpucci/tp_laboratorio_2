@@ -1,9 +1,0 @@
-C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Application.Procedure\bin\Debug\Application.Procedure.dll
-C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Application.Procedure\bin\Debug\Application.Procedure.pdb
-C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Application.Procedure\bin\Debug\Entities.dll
-C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Application.Procedure\bin\Debug\Entities.pdb
-C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Application.Procedure\obj\Debug\Application.Procedure.csprojAssemblyReference.cache
-C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Application.Procedure\obj\Debug\Application.Procedure.csproj.CoreCompileInputs.cache
-C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Application.Procedure\obj\Debug\Application.Procedure.csproj.CopyComplete
-C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Application.Procedure\obj\Debug\Application.Procedure.dll
-C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Application.Procedure\obj\Debug\Application.Procedure.pdb
