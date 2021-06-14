@@ -1,0 +1,30 @@
+Usuarios disponibles: Recepcionista o Tecnico
+
+El recepcionista se encuentra guardado dentro de:
+.../FrmPrincipal/bin/Debug/recepcionist.xml
+De todas formas los valores por defecto son:
+username: recepcionista
+password: 12345
+En caso de que el archivo se haya eliminado, se generará un usuario automáticamente
+
+El técnico se encuentra guardado dentro de:
+.../FrmPrincipal/bin/Debug/technical.xml
+De todas formas los valores por defecto son:
+username: tecnico
+password: 12345
+En caso de que el archivo se haya eliminado, se generará un usuario automáticamente
+
+El rol del recepcionista es cargar computadoras rotas que trae un cliente.
+La pantalla principal del recepcionista tendrá la posibilidad de modificar los datos de su usuario, listar todas las computadoras cargadas y dar de alta una nueva computadora.
+En la pantalla de cargar una nueva computadora se deberá llenar todos los campos y dejar una descripción.Se pueden visualizar todas las computadoras cargadas en TODOS SUS ESTADOS en la pantalla de “Listar computadoras”.
+Para que un técnico pueda reparar la computadora será necesario enviarla, seleccionando la computadora de la lista de “Recibidas”.
+Una vez la computadora fue reparada y devuelta por el técnico al recepcionista, éste último deberá devolvérsela al cliente.
+
+El rol del técnico es reparar las computadoras que le envía el recepcionista.
+La pantalla principal del recepcionista tendrá la posibilidad de modificar los datos de su usuario y listar todas las computadoras que le llegan por parte del recepcionista, el técnico no tiene la posibilidad de cargar las computadoras de los clientes.
+Dentro de la pantalla de “Listar computadoras” se podrán visualizar las computadoras a reparar.Una vez seleccionada alguna se deberá cambiar algún componente y su descripción indicando que fue reparada.
+Una vez reparada la computadora se DEBERÁ devolver al recepcionista para su posterior entrega al cliente.
+
+Cada movimiento realizado se va a registrar en un archivo de texto llamado "list_computers.txt" ubicado en ...TP3/FrmPrincipal/bin/Debug/list_computers.txt
+
+Gracias por usar nuestro sistema!
