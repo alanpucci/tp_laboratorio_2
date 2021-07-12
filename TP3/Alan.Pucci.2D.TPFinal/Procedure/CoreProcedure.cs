@@ -9,14 +9,17 @@ using System.Xml.Serialization;
 using Entities;
 using Files;
 using Exceptions;
+using SQL;
 
 namespace Procedure
 {
+    public delegate void ProcedureDelegate(Computer computer);
     public sealed class CoreProcedure : IProcedure<Computer, State>
     {
         private const int MAXSTOCKWAITING = 10;
         private static List<Computer> computers;
         private static CoreProcedure instance = null;
+        public static event ProcedureDelegate FireEvent;
 
         /// <summary>
         /// Default constructor
@@ -46,6 +49,9 @@ namespace Procedure
         static CoreProcedure()
         {
             computers = LoadComputers();
+            FireEvent += SaveTxt;
+            FireEvent += SaveXML;
+            FireEvent += SaveDB;
         }
 
         /// <summary>
@@ -103,19 +109,21 @@ namespace Procedure
         /// </summary>
         /// <param name="u">Computer to add</param>
         /// <returns>True if the computer is added, false if not</returns>
-        public static bool AddComputer(Computer u)
+        public static bool AddComputer(Computer computer)
         {
             try
             {
                 if (CanAddComputer)
                 {
-                    if(computers + u)
+                    if(computers + computer)
                     {
-                        TextHandler textHandler = new TextHandler();
-                        textHandler.SaveFile(u.Show(), "list_computers.txt");
-                        FilesHandler<List<Computer>> fileHandler = new FilesHandler<List<Computer>>();
-                        fileHandler.SaveFile(computers, "Computers.xml");
-                        return true;
+                        //TextHandler textHandler = new TextHandler();
+                        //textHandler.SaveFile(u.Show(), "list_computers.txt");
+                        //FilesHandler<List<Computer>> fileHandler = new FilesHandler<List<Computer>>();
+                        //fileHandler.SaveFile(computers, "Computers.xml");
+                        //SqlHandler.CreateComputer(u);
+                        FireEvent.Invoke(computer);
+                        return true; 
                     }
                 }
                 throw new ComputerException("No hay espacio para cargar la computadora.\nPor favor, asigna las computadoras al técnico");
@@ -230,10 +238,26 @@ namespace Procedure
         }
 
         /// <summary>
-        /// Loads the list of computers from a file. If file doesn't exists, a new list is instantiated
+        /// Loads the list of computers from a database. If it throws an exception, a new list is created
         /// </summary>
         /// <returns></returns>
         private static List<Computer> LoadComputers()
+        {
+            try
+            {
+                return SqlHandler.GetComputers();
+            }
+            catch (Exception)
+            {
+                return new List<Computer>();
+            }
+        }
+
+        /// <summary>
+        /// Loads the list of computers from a file.
+        /// </summary>
+        /// <returns></returns>
+        private static List<Computer> LoadComputersFromFile()
         {
             try
             {
@@ -242,11 +266,11 @@ namespace Procedure
             }
             catch (FileNotFoundException)
             {
-                return new List<Computer>();
+                throw;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                throw ex;
+                throw;
             }
         }
 
@@ -272,6 +296,44 @@ namespace Procedure
             catch (Exception ex)
             {
                 throw ex;
+            }
+        }
+
+        private static void SaveTxt(object computer)
+        {
+            try
+            {
+                TextHandler textHandler = new TextHandler();
+                textHandler.SaveFile(((Computer)computer).Show(), "list_computers.txt");
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        private static void SaveXML(object computer)
+        {
+            try
+            {
+                FilesHandler<List<Computer>> fileHandler = new FilesHandler<List<Computer>>();
+                fileHandler.SaveFile(computers, "Computers.xml");
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        private static void SaveDB(object computer)
+        {
+            try
+            {
+                SqlHandler.CreateComputer((Computer)computer);
+            }
+            catch (Exception)
+            {
+                throw;
             }
         }
     }

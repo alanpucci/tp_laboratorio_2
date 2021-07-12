@@ -43,6 +43,12 @@ namespace Entities
             this.charger = charger;
         }
 
+        public Notebook(int id, string clientName, Brand brand, bool charger, bool touchScreen, OS os, ComType type, Processor processor, HardDisk hardDisk, RAM ram, string desc, GraphicCard graphicCard)
+            : this(clientName, brand, charger, touchScreen, os, type, processor, hardDisk, ram, desc, graphicCard)
+        {
+            base.ID = id;
+        }
+
         /// <summary>
         /// Get and set brand
         /// </summary>

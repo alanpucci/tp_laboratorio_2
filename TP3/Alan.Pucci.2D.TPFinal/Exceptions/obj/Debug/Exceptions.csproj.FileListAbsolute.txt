@@ -3,4 +3,3 @@ C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Exception
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Exceptions\obj\Debug\Exceptions.dll
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Exceptions\obj\Debug\Exceptions.pdb
-C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Exceptions\obj\Debug\Exceptions.csprojAssemblyReference.cache

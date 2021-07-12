@@ -48,3 +48,5 @@ C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Test\obj\
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Test\obj\Debug\Test.csproj.CopyComplete
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Test\obj\Debug\Test.dll
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Test\obj\Debug\Test.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Test\bin\Debug\Exceptions.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Test\bin\Debug\Exceptions.pdb
