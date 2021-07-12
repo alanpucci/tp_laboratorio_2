@@ -75,7 +75,7 @@ namespace Test
             }
             FilesHandler<List<Computer>> files = new FilesHandler<List<Computer>>();
             files.SaveFile(CoreProcedure.Computers, "computersTest.xml");
-            List<Computer> computers = files.ReadFile("computersTest.xml");
+            List<Computer> computers = files.ReadFile(AppDomain.CurrentDomain.BaseDirectory + "computersTest.xml");
 
             //Assert
             Assert.AreEqual(computers.Count, CoreProcedure.Computers.Count);

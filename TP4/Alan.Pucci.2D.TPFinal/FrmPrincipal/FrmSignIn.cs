@@ -69,9 +69,9 @@ namespace FrmPrincipal
                 }
                 this.Show();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -83,7 +83,6 @@ namespace FrmPrincipal
             try
             {
                 TextHandler fileHandler = new TextHandler();
-                //MessageBox.Show(fileHandler.ReadFile("help.txt"), "Info", MessageBoxButtons.OK,MessageBoxIcon.Information);
                 FrmHelp frmHelp = new FrmHelp(fileHandler.ReadFile("help.txt"));
                 this.Hide();
                 frmHelp.ShowDialog();

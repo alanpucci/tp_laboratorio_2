@@ -204,12 +204,16 @@ namespace FrmPrincipal
             this.btnDeliver.BackColor = Color.LightGray;
         }
 
+        /// <summary>
+        /// Loads computers from a XML
+        /// </summary>
         private void btnLoad_Click(object sender, EventArgs e)
         {
             try
             {
                 OpenFileDialog dialog = new OpenFileDialog();
                 dialog.ShowDialog();
+                MessageBox.Show(dialog.FileName);
                 CoreProcedure.LoadComputersFromFile(dialog.FileName);
                 this.ReloadData();
             }

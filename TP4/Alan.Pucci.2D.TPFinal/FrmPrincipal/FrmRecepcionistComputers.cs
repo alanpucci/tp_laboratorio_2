@@ -263,6 +263,9 @@ namespace FrmPrincipal
             }
         }
 
+        /// <summary>
+        /// Loads computers from a XML
+        /// </summary>
         private void btnLoad_Click(object sender, EventArgs e)
         {
             try
