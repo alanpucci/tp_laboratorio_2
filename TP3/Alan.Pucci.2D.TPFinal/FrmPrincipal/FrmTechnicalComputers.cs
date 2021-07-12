@@ -21,7 +21,7 @@ namespace FrmPrincipal
         {
             InitializeComponent();
             this.tech = tech;
-            this.showIndex = 0;
+            this.showIndex = 2;
         }
 
         /// <summary>
@@ -30,7 +30,7 @@ namespace FrmPrincipal
         private void FrmTechnical_Load(object sender, EventArgs e)
         {
             this.ReloadData();
-            this.cmbShow.SelectedIndex = 0;
+            this.cmbShow.SelectedIndex = 2;
         }
 
         /// <summary>

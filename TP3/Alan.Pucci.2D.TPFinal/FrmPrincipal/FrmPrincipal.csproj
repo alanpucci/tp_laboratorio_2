@@ -157,6 +157,10 @@
       <Project>{e1533b4f-2b37-4f75-8553-8ad862d4fe8d}</Project>
       <Name>SignIn</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SQL\SQL.csproj">
+      <Project>{55a4cd76-df0b-4dff-9b3d-5a0e196d7f0f}</Project>
+      <Name>SQL</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image %283%29.png" />

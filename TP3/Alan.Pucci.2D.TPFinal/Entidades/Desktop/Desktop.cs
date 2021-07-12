@@ -43,6 +43,12 @@ namespace Entities
             this.extraAccesory = extraAccesory;
         }
 
+        public Desktop(int id, string clientName, Cooler cooler, bool dvdBurner, bool extraAccesory, OS os, ComType type, Processor processor, HardDisk hardDisk, RAM ram, string desc, GraphicCard graphicCard)
+            : this(clientName, cooler, dvdBurner, extraAccesory, os, type, processor, hardDisk, ram, desc, graphicCard)
+        {
+            base.ID = id;
+        }
+
         /// <summary>
         /// Get and set cooler
         /// </summary>

@@ -1,0 +1,862 @@
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 02:38:07 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 02:38:07 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: PorReparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 02:38:07 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: ASUSROGStrixRadeonRX580
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se arregló
+Estado: Reparada
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 02:38:18 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 02:38:22 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 02:38:30 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 02:38:30 a. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 02:39:43 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 02:39:43 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: PorReparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 02:39:48 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 02:39:48 a. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 02:49:18 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 02:49:18 a. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:14:56 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 03:14:56 a. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:15:43 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 03:15:43 a. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:19:48 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:20:24 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 03:20:24 a. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:20:50 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:20:50 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: PorReparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:20:57 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:01 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:01 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: PorReparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 03:21:01 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: ASUSROGStrixRadeonRX580
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se arregló
+Estado: Reparada
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:05 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:08 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 03:21:08 a. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:14 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:14 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:14 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:14 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: PorReparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 03:21:14 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: ASUSROGStrixRadeonRX580
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se arregló
+Estado: Reparada
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:14 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:14 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: PorReparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 03:21:14 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 03:21:14 a. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 01:22:24 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 01:22:24 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: PorReparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 01:22:24 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: ASUSROGStrixRadeonRX580
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se arregló
+Estado: Reparada
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 01:22:25 p. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 01:22:25 p. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: PorReparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 01:22:25 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 01:22:25 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 01:22:25 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 01:22:25 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 01:22:25 p. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 07:49:05 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 07:49:05 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 12:09:45 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 12:09:55 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 12:09:55 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 12:13:22 a. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 12:13:59 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 12:13:59 a. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Esta rota
+Estado: Recibida
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 12:15:02 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 12:47:40 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: HP
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 12:47:40 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: HP
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: PorReparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 12:48:50 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 12:48:50 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: PorReparar
+-----------------------------
+

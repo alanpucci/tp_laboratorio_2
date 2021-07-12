@@ -52,3 +52,5 @@ C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\FrmPrinci
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\FrmPrincipal\obj\Debug\FrmPrincipal.pdb
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\FrmPrincipal\bin\Debug\Exceptions.dll
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\FrmPrincipal\bin\Debug\Exceptions.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\FrmPrincipal\bin\Debug\SQL.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\FrmPrincipal\bin\Debug\SQL.pdb

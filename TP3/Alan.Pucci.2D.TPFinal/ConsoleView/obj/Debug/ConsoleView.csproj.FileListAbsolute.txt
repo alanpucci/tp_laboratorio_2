@@ -30,3 +30,5 @@ C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\ConsoleVi
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\ConsoleView\obj\Debug\ConsoleView.csproj.CopyComplete
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\ConsoleView\obj\Debug\ConsoleView.exe
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\ConsoleView\obj\Debug\ConsoleView.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\ConsoleView\bin\Debug\Exceptions.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\ConsoleView\bin\Debug\Exceptions.pdb

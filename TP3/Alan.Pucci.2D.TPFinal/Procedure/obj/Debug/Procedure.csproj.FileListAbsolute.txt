@@ -22,3 +22,5 @@ C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Procedure
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Procedure\obj\Debug\Procedure.pdb
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Procedure\bin\Debug\Exceptions.dll
 C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Procedure\bin\Debug\Exceptions.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Procedure\bin\Debug\SQL.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\TP3\Alan.Pucci.2D.TPFinal\Procedure\bin\Debug\SQL.pdb

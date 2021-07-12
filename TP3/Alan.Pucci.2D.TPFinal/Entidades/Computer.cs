@@ -24,6 +24,7 @@ namespace Entities
         private DateTime date;
         private string clientName;
         private State state;
+        private int id;
 
         /// <summary>
         /// Default constructor
@@ -56,6 +57,26 @@ namespace Entities
             this.date = DateTime.Now;
             this.state = State.Recibida;
             this.graphicCard = graphicCard;
+        }
+
+        public Computer(int id, string clientName, OS os, ComType type, Processor processor, HardDisk hardDisk, RAM ram, string desc, GraphicCard graphicCard):this(clientName, os, type, processor, hardDisk, ram, desc, graphicCard)
+        {
+            this.id = id;
+        }
+
+        /// <summary>
+        /// Get and set computer ID
+        /// </summary>
+        public int ID
+        {
+            get
+            {
+                return this.id;
+            }
+            set
+            {
+                this.id = value;
+            }
         }
 
         /// <summary>
