@@ -1,0 +1,1820 @@
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:15:10 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: No anda
+Estado: Recibida
+-----------------------------
+
+Cliente: Pepe
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:15:23 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: Pantalla azukl
+Estado: Recibida
+-----------------------------
+
+Cliente: Jorge
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:15:47 a. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: RadeonRX560
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: Dejo de funcionar, se rompio el cable
+Estado: Recibida
+-----------------------------
+
+Cliente: Azul
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:16:07 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Cooler: Honeywell
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? No
+Descripcion: Se mojo
+Estado: Recibida
+-----------------------------
+
+Cliente: Fede
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:16:18 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Cooler: MasterHyper
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? Si
+Descripcion: nooooooo
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:15:10 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: No anda
+Estado: Por reparar
+-----------------------------
+
+Cliente: Pepe
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:15:23 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: Pantalla azukl
+Estado: Por reparar
+-----------------------------
+
+Cliente: Jorge
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:15:47 a. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: RadeonRX560
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: Dejo de funcionar, se rompio el cable
+Estado: Por reparar
+-----------------------------
+
+Cliente: Azul
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:16:07 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Cooler: Honeywell
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? No
+Descripcion: Se mojo
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:16:40 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se arreglo
+Estado: Reparada
+-----------------------------
+
+Cliente: Fede
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:16:18 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Cooler: MasterHyper
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? Si
+Descripcion: nooooooo
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:15:10 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se arreglo
+Estado: Por entregar
+-----------------------------
+
+Cliente: Fede
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:17:59 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Cooler: MasterHyper
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? Si
+Descripcion: siiii
+Estado: Reparada
+-----------------------------
+
+Cliente: Jorge
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:19:22 a. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: RadeonRX560
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: asda
+Estado: Reparada
+-----------------------------
+
+Cliente: Pepe
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:19:33 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: sdasd
+Estado: Reparada
+-----------------------------
+
+Cliente: Azul
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:20:32 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Cooler: Honeywell
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? No
+Descripcion: Se arreglo
+Estado: Reparada
+-----------------------------
+
+Cliente: Pepe
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:15:23 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: sdasd
+Estado: Por entregar
+-----------------------------
+
+Cliente: pepito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:22:33 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio no anda mas
+Estado: Recibida
+-----------------------------
+
+Cliente: pepito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:22:33 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: Se rompio no anda mas
+Estado: Por reparar
+-----------------------------
+
+Cliente: pepito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:22:59 a. m.
+Procesador: Intel
+Disco duro: HDD512GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: Se arreglo anda joya
+Estado: Reparada
+-----------------------------
+
+Cliente: Alan
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:15:10 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se arreglo
+Estado: Devuelta
+-----------------------------
+
+Cliente: Alancito
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:27:12 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Se rompiooo
+Estado: Recibida
+-----------------------------
+
+Cliente: Jorge
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:15:47 a. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: RadeonRX560
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: asda
+Estado: Por entregar
+-----------------------------
+
+Cliente: Azul
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:16:07 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Cooler: Honeywell
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? No
+Descripcion: Se arreglo
+Estado: Por entregar
+-----------------------------
+
+Cliente: Chiara
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:43:07 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: No anda
+Estado: Recibida
+-----------------------------
+
+Cliente: Alancito
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:27:12 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Se rompiooo
+Estado: Por reparar
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:45:18 a. m.
+Procesador: Intel
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: No anda
+Estado: Recibida
+-----------------------------
+
+Cliente: Chiara
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:43:07 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: No anda
+Estado: Por reparar
+-----------------------------
+
+Cliente: Fede
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:16:18 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Cooler: MasterHyper
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? Si
+Descripcion: siiii
+Estado: Por entregar
+-----------------------------
+
+Cliente: pepito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:22:33 a. m.
+Procesador: Intel
+Disco duro: HDD512GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: Se arreglo anda joya
+Estado: Por entregar
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:45:18 a. m.
+Procesador: Intel
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: No anda
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alancito
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:59:33 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Se arreglo
+Estado: Reparada
+-----------------------------
+
+Cliente: Chiara
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 05:23:26 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: se arreglo
+Estado: Reparada
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:25:36 a. m.
+Procesador: Intel
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: ahora funciona
+Estado: Reparada
+-----------------------------
+
+Cliente: juanpepe
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 05:26:47 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: HP
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: 1 2 3 probando
+Estado: Recibida
+-----------------------------
+
+Cliente: juanpepe
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 05:26:47 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: HP
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: 1 2 3 probando
+Estado: Por reparar
+-----------------------------
+
+Cliente: don pepito
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 05:27:50 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: se rompio por fa arreglen
+Estado: Recibida
+-----------------------------
+
+Cliente: don pepito
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 05:27:50 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: se rompio por fa arreglen
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alejandro
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:28:43 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Esta rotida
+Estado: Recibida
+-----------------------------
+
+Cliente: Alejandro
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:28:43 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Esta rotida
+Estado: Por reparar
+-----------------------------
+
+Cliente: juanpepe
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 05:28:59 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: HP
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: Se arreglo
+Estado: Reparada
+-----------------------------
+
+Cliente: Chiara
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:43:07 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: HP
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: se arreglo
+Estado: Por entregar
+-----------------------------
+
+Cliente: juanpepe
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 05:26:47 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: HP
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: Se arreglo
+Estado: Por entregar
+-----------------------------
+
+Cliente: don pepito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:30:25 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Le cambie un par de componentes
+Estado: Reparada
+-----------------------------
+
+Cliente: UltimoEjemplar
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:33:13 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Ultimo cliente
+Estado: Recibida
+-----------------------------
+
+Cliente: don pepito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:27:50 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Le cambie un par de componentes
+Estado: Por entregar
+-----------------------------
+
+Cliente: Alejandro
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:36:13 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Te la arregle master
+Estado: Reparada
+-----------------------------
+
+Cliente: mentira
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 05:44:11 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: 1 2 3 probando
+Estado: Recibida
+-----------------------------
+
+Cliente: UltimoEjemplar
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:33:13 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Ultimo cliente
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alejandro
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:28:43 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: RadeonRX560
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Te la arregle master
+Estado: Por entregar
+-----------------------------
+
+Cliente: UltimoEjemplar
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 06:01:48 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: asdasd
+Estado: Recibida
+-----------------------------
+
+Cliente: UltimoEjemplar
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 06:01:48 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: asdasd
+Estado: Por reparar
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:56:32 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 06:02:04 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azulsss
+Estado: Recibida
+-----------------------------
+
+Cliente: UltimoEjemplar
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 06:02:22 a. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Arregladaaaa
+Estado: Reparada
+-----------------------------
+
+Cliente: UltimoEjemplar
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 06:01:48 a. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Arregladaaaa
+Estado: Por entregar
+-----------------------------
+
+Cliente: UltimoEjemplar
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 06:01:48 a. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Arregladaaaa
+Estado: Devuelta
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 13/07/2021 10:23:14 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: arreglada
+Estado: Reparada
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:52:38 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: arreglada
+Estado: Por entregar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:53:01 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:54:31 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azulsss
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 13/07/2021 10:24:45 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: reparada
+Estado: Reparada
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 13/07/2021 10:38:34 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azulsss
+Estado: Reparada
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 13/07/2021 10:52:08 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Reparada
+Estado: Reparada
+-----------------------------
+
+Cliente: asdasd
+Sistema operativo: Linux
+Fecha de creación: 13/07/2021 10:57:12 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: reparada
+Estado: Reparada
+-----------------------------
+
+Cliente: asdasdsdfsd
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 02:53:27 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: asdasdsassd
+Estado: Reparada
+-----------------------------
+
+Cliente: alan
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 02:55:31 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: Lenovo
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: asdasdasdasd
+Estado: Recibida
+-----------------------------
+
+Cliente: alan
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 02:55:47 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: RadeonRX560
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: asdasdasdasdds
+Estado: Recibida
+-----------------------------
+
+Cliente: alan
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 02:56:05 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: asdasdasdasddsss
+Estado: Recibida
+-----------------------------
+
+Cliente: alan
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 02:55:31 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: asdasdasdasddsss
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alan0
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 01:06:57 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alan4
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 01:06:57 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alan5
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 01:06:57 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alan9
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 01:06:57 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alan9
+Sistema operativo: Windows
+Fecha de creación: 14/07/2021 02:56:28 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompisso
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan9
+Sistema operativo: Windows
+Fecha de creación: 14/07/2021 02:56:31 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompissosdsad
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan9
+Sistema operativo: Windows
+Fecha de creación: 14/07/2021 02:56:34 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: NvidiaGTX1050
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompissosdsad
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan9
+Sistema operativo: Windows
+Fecha de creación: 14/07/2021 02:56:35 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: NvidiaGTX1050
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Se rompissosdsad
+Estado: Recibida
+-----------------------------
+
+Cliente: Alan9
+Sistema operativo: Windows
+Fecha de creación: 14/07/2021 02:56:41 p. m.
+Procesador: Intel
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: NvidiaGTX1050
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Se rompissosdsadaa
+Estado: Recibida
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: Alan1
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 01:06:57 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Recibida
+-----------------------------
+
+Cliente: alan
+Sistema operativo: Windows
+Fecha de creación: 14/07/2021 02:59:34 p. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Se reparo
+Estado: Reparada
+-----------------------------
+
+Cliente: alan
+Sistema operativo: Windows
+Fecha de creación: 14/07/2021 02:55:31 p. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Se reparo
+Estado: Por entregar
+-----------------------------
+
+Cliente: alan
+Sistema operativo: Windows
+Fecha de creación: 14/07/2021 02:55:31 p. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Se reparo
+Estado: Devuelta
+-----------------------------
+
+Cliente: asdasdsdfsd
+Sistema operativo: Linux
+Fecha de creación: 13/07/2021 12:21:18 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: asdasdsassd
+Estado: Por entregar
+-----------------------------
+
+Cliente: alancitu
+Sistema operativo: Windows
+Fecha de creación: 14/07/2021 03:01:16 p. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: asdsa
+Estado: Recibida
+-----------------------------
+
+Cliente: Juan Pepe
+Sistema operativo: Windows
+Fecha de creación: 15/07/2021 01:39:22 p. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB24
+Placa de video: ASUSROGStrixRadeonRX580
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: Me aparece pantalla azul al prenderla
+Estado: Recibida
+-----------------------------
+
+Cliente: Juan Pepe
+Sistema operativo: Windows
+Fecha de creación: 15/07/2021 01:39:36 p. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB24
+Placa de video: RadeonRX560
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: Me aparece pantalla azul al prenderla y apagarla
+Estado: Recibida
+-----------------------------
+
+Cliente: Juan Pepe
+Sistema operativo: Windows
+Fecha de creación: 15/07/2021 01:39:22 p. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB24
+Placa de video: RadeonRX560
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: Me aparece pantalla azul al prenderla y apagarla
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juan Pepe
+Sistema operativo: Windows
+Fecha de creación: 15/07/2021 01:40:33 p. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB24
+Placa de video: RadeonRX560
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: Se reparo, todo anda genial
+Estado: Reparada
+-----------------------------
+
+Cliente: Juan Pepe
+Sistema operativo: Windows
+Fecha de creación: 15/07/2021 01:39:22 p. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB24
+Placa de video: RadeonRX560
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: Se reparo, todo anda genial
+Estado: Por entregar
+-----------------------------
+
+Cliente: Alan9
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 01:06:57 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Por reparar
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: Alan9
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 01:06:57 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juan Pepe
+Sistema operativo: Windows
+Fecha de creación: 15/07/2021 01:39:22 p. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB24
+Placa de video: RadeonRX560
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: Se reparo, todo anda genial
+Estado: Devuelta
+-----------------------------
+
+Cliente: gfdhfdgh
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 03:07:01 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: dfgdfgfdg
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alan9
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 01:06:57 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alan8
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 01:06:57 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: Acer
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se rompio
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:53:01 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: reparada
+Estado: Por entregar
+-----------------------------
+
+Cliente: $$$$
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 12:48:46 p. m.
+Procesador: Intel
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: NvidiaGTX1050
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? Si
+Descripcion: Se r ompio
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba1234
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 12:57:54 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Probando ando
+Estado: Recibida
+-----------------------------
+
+Cliente: asd
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 12:58:13 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: fsafa
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:02:40 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: 1234 probahndo
+Estado: Recibida
+-----------------------------
+
+Cliente: probando ando
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:05:04 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Cooler: DeepcoolGammax
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? No
+Descripcion: panananana
+Estado: Recibida
+-----------------------------
+
+Cliente: $$$$
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 12:48:46 p. m.
+Procesador: Intel
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: NvidiaGTX1050
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? Si
+Descripcion: Se r ompio
+Estado: Por reparar
+-----------------------------
+
+Cliente: alancito
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:12:11 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: 1234 prueba
+Estado: Recibida
+-----------------------------
+
+Cliente: probando ando
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:05:04 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Cooler: DeepcoolGammax
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? No
+Descripcion: panananana
+Estado: Por reparar
+-----------------------------
+
+Cliente: alancito
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:15:15 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: fds
+Estado: Recibida
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:02:40 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: 1234 probahndo
+Estado: Recibida
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: Prueba1234
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 12:57:54 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Probando ando
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:41:18 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: 1234 probahndoasdsa
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:41:20 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: 1234 probahndoasdsa
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:41:21 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: 1234 probahndoasdsa
+Estado: Recibida
+-----------------------------
+
+Cliente: alancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 02:05:06 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: fds<zdasd
+Estado: Recibida
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: alancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 01:15:15 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: fds<zdasd
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 02:05:20 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: 123 prueba 123
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 02:05:27 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: 123 prueba 123
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 02:05:32 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: 123 prueba 123
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 02:05:39 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: 123 prueba 123
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:02:40 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: 123 prueba 123
+Estado: Por reparar
+-----------------------------
+
+Cliente: alan
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 03:07:08 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Cooler: MasterHyper
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? No
+Descripcion: sdfgfdfg
+Estado: Por reparar
+-----------------------------
+
+Cliente: alan
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 03:07:28 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: NvidiaGTX1050
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: sdfsdf
+Estado: Por reparar
+-----------------------------
+
+Cliente: dfgsdfghq
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 03:06:50 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: ghgh
+Estado: Por reparar
+-----------------------------
+
+Cliente: dfghfgdh
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 03:06:56 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: fhgfdhfdhg
+Estado: Por reparar
+-----------------------------
+
+Cliente: dfgsdfghq
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 03:06:50 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: ghgh
+Estado: Por reparar
+-----------------------------
+
+///////////////////////////////////
+Computadora eliminada: 
+Cliente: dfgsdfghq
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 03:06:50 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: ghgh
+Estado: Recibida
+-----------------------------
+
+Cliente: dfgsdfghq
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 02:16:06 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB24
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: sadcgfds
+Estado: Recibida
+-----------------------------
+
+Cliente: $$$$
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 04:14:12 p. m.
+Procesador: Intel
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: NvidiaGTX1050
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? Si
+Descripcion: Se r ompio 
+Estado: Reparada
+-----------------------------
+
+Cliente: $$$$
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 12:48:46 p. m.
+Procesador: Intel
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: NvidiaGTX1050
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? Si
+Descripcion: Se r ompio 
+Estado: Por entregar
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 05:28:59 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: 123
+Estado: Reparada
+-----------------------------
+
+Cliente: Prueba12345
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 01:02:40 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: 123
+Estado: Por entregar
+-----------------------------
+

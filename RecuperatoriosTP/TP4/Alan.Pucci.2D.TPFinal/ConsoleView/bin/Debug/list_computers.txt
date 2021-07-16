@@ -1,0 +1,672 @@
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 04:33:38 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 04:33:38 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Pantalla azul
+Estado: PorReparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 04:33:38 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se reparó
+Estado: Reparada
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 04:33:38 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se reparó
+Estado: PorEntregar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 04:33:38 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se reparó
+Estado: Devuelta
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 07:49:21 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/06/2021 07:49:21 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Pantalla azul
+Estado: PorReparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 07:49:21 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se reparó
+Estado: Reparada
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 07:49:21 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se reparó
+Estado: Reparada
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 07:49:21 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se reparó
+Estado: PorEntregar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 04:33:38 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se reparó
+Estado: Devuelta
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Linux
+Fecha de creación: 12/06/2021 04:33:38 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Se reparó
+Estado: Devuelta
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:50:37 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: mentira
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 05:44:11 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: 1 2 3 probando
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:52:38 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:52:38 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:53:01 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:53:01 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:54:31 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:54:31 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:56:32 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:56:32 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Por reparar
+-----------------------------
+
+Cliente: Alancito
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:27:12 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Se arreglo
+Estado: Por entregar
+-----------------------------
+
+Cliente: Pepe
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:15:23 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB16
+Placa de video: GigabyteRadeonRX550
+Cooler: ArcticFreezer
+¿Tiene grabadora de DVD? No
+¿Tiene accesorio extra? Si
+Descripcion: sdasd
+Estado: Devuelta
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:39:15 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: alan
+Sistema operativo: Linux
+Fecha de creación: 14/07/2021 03:07:16 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: sadsdf
+Estado: Por reparar
+-----------------------------
+
+Cliente: UltimoEjemplar
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:33:13 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: GigabyteRadeonRX550
+Marca: ASUS
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: Ultimo clientees
+Estado: Por entregar
+-----------------------------
+
+Cliente: Jorge
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:15:47 a. m.
+Procesador: AMD
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: RadeonRX560
+Marca: ASUS
+¿Trae cargador? Si
+¿Tiene pantalla táctil? Si
+Descripcion: asda
+Estado: Devuelta
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:40:36 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Prueba1234
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 12:57:54 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Marca: AsRock
+¿Trae cargador? Si
+¿Tiene pantalla táctil? No
+Descripcion: Probando ando
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:41:38 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: asd
+Sistema operativo: Linux
+Fecha de creación: 16/07/2021 12:58:13 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: GigabyteRadeonRX550
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: fsafa
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:42:34 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:39:15 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:42:58 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:40:36 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:43:02 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:41:38 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:43:57 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:43:57 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:43:57 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Arreglada
+Estado: Reparada
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:50:37 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azulsss
+Estado: Por entregar
+-----------------------------
+
+Cliente: Azul
+Sistema operativo: Linux
+Fecha de creación: 12/07/2021 04:16:07 a. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Cooler: Honeywell
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? No
+Descripcion: Se arreglo
+Estado: Devuelta
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:44:26 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Recibida
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:44:26 p. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB4
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Pantalla azul
+Estado: Por reparar
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 16/07/2021 05:44:26 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: NvidiaGTX1050
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Arreglada
+Estado: Reparada
+-----------------------------
+
+Cliente: Juancito
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 05:54:31 a. m.
+Procesador: AMD
+Disco duro: HDD1TB
+RAM: GB16
+Placa de video: MSIRadeonRX480
+Marca: AsRock
+¿Trae cargador? No
+¿Tiene pantalla táctil? Si
+Descripcion: Reparada
+Estado: Por entregar
+-----------------------------
+
+Cliente: Fede
+Sistema operativo: Windows
+Fecha de creación: 12/07/2021 04:16:18 a. m.
+Procesador: Intel
+Disco duro: SDD512GB
+RAM: GB8
+Placa de video: NvidiaGTX1050
+Cooler: MasterHyper
+¿Tiene grabadora de DVD? Si
+¿Tiene accesorio extra? Si
+Descripcion: siiii
+Estado: Devuelta
+-----------------------------
+
