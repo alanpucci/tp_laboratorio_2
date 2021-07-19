@@ -798,3 +798,17 @@ Descripcion: Arregladaaaa
 Estado: Devuelta
 -----------------------------
 
+Cliente: alan
+Sistema operativo: Linux
+Fecha de creación: 17/07/2021 01:19:30 p. m.
+Procesador: AMD
+Disco duro: SDD256GB
+RAM: GB4
+Placa de video: NvidiaGTX1050
+Marca: Acer
+¿Trae cargador? No
+¿Tiene pantalla táctil? No
+Descripcion: sdfsdfsadasd
+Estado: Reparada
+-----------------------------
+

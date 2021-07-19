@@ -213,7 +213,7 @@ namespace FrmPrincipal
                     break;
                 case ToDo.Repair:
                     this.lblTitle.Text = "Reparar computadora";
-                    this.lblDescription.Text = "・Es necesario que modifiques algún componente y cambiar la descripción";
+                    this.lblDescription.Text = "・Es necesario que modifiques la descripción para reparar";
                     this.txtClientName.ReadOnly = true;
                     this.cmbType.Enabled = false;
                     break;
