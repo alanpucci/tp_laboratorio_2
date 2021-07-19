@@ -22,7 +22,7 @@ Una vez la computadora fue reparada y devuelta por el técnico al recepcionista,
 
 El rol del técnico es reparar las computadoras que le envía el recepcionista.
 La pantalla principal del recepcionista tendrá la posibilidad de modificar los datos de su usuario y listar todas las computadoras que le llegan por parte del recepcionista, el técnico no tiene la posibilidad de cargar las computadoras de los clientes.
-Dentro de la pantalla de “Listar computadoras” se podrán visualizar las computadoras a reparar.Una vez seleccionada alguna se deberá cambiar algún componente y su descripción indicando que fue reparada.
+Dentro de la pantalla de “Listar computadoras” se podrán visualizar las computadoras a reparar.Una vez seleccionada alguna se deberá cambiar su descripción indicando que fue reparada.
 Una vez reparada la computadora se DEBERÁ devolver al recepcionista para su posterior entrega al cliente.
 
 Cada movimiento realizado se va a registrar en un archivo de texto llamado "list_computers.txt" ubicado en ...TP3/FrmPrincipal/bin/Debug/list_computers.txt
