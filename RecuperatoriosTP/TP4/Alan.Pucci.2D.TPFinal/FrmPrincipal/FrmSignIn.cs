@@ -114,13 +114,20 @@ namespace FrmPrincipal
         /// </summary>
         private void txtPassword_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Enter)
+            try
             {
-                this.SignInEvent.Invoke();
+                if(e.KeyCode == Keys.Enter)
+                {
+                    this.SignInEvent.Invoke();
+                }
+                if(e.KeyCode == Keys.Escape)
+                {
+                    this.Close();
+                }
             }
-            if(e.KeyCode == Keys.Escape)
+            catch (Exception ex)
             {
-                this.Close();
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -129,13 +136,20 @@ namespace FrmPrincipal
         /// </summary>
         private void txtUsername_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            try
             {
-                this.SignInEvent.Invoke();
+                if (e.KeyCode == Keys.Enter)
+                {
+                    this.SignInEvent.Invoke();
+                }
+                if (e.KeyCode == Keys.Escape)
+                {
+                    this.Close();
+                }
             }
-            if (e.KeyCode == Keys.Escape)
+            catch (Exception ex)
             {
-                this.Close();
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

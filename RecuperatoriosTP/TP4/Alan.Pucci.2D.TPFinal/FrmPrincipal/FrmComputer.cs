@@ -24,6 +24,10 @@ namespace FrmPrincipal
         User user;
         ToDo toDo;
 
+        /// <summary>
+        /// Constructor, set "Add" into toDo attribute, subscribe loading method to the respective event
+        /// </summary>
+        /// <param name="user">User to initialize</param>
         public FrmComputer(User user)
         {
             InitializeComponent();
@@ -32,6 +36,9 @@ namespace FrmPrincipal
             CoreProcedure.RepairComputerEvent += this.Loading;
         }
 
+        /// <summary>
+        /// Returns the new computer
+        /// </summary>
         public Computer GetNewComputer
         {
             get
@@ -40,6 +47,12 @@ namespace FrmPrincipal
             }
         }
 
+        /// <summary>
+        /// Constructor, initialize computer, user and toDo
+        /// </summary>
+        /// <param name="user">User to initialize</param>
+        /// <param name="computer">Computer to initialize</param>
+        /// <param name="toDo">toDo to initialize</param>
         public FrmComputer(User user, Computer computer, ToDo toDo):this(user)
         {
             this.computer = computer;
@@ -204,24 +217,31 @@ namespace FrmPrincipal
         /// </summary>
         private void ModifyModal()
         {
-            this.HandleButtons(true);
-            switch (this.toDo)
+            try
             {
-                case ToDo.Edit:
-                    this.lblTitle.Text = "Modificar computadora";
-                    this.lblDescription.Text = "・No es necesario que modifiques todos los componentes";
-                    break;
-                case ToDo.Repair:
-                    this.lblTitle.Text = "Reparar computadora";
-                    this.lblDescription.Text = "・Es necesario que modifiques la descripción para reparar";
-                    this.txtClientName.ReadOnly = true;
-                    this.cmbType.Enabled = false;
-                    break;
-                default:
-                    this.lblTitle.Text = "Agregar computadora";
-                    this.lblDescription.Text = "・Llena todos los campos para cargar la computadora";
-                    this.HandleButtons(false);
-                    break;
+                this.HandleButtons(true);
+                switch (this.toDo)
+                {
+                    case ToDo.Edit:
+                        this.lblTitle.Text = "Modificar computadora";
+                        this.lblDescription.Text = "・No es necesario que modifiques todos los componentes";
+                        break;
+                    case ToDo.Repair:
+                        this.lblTitle.Text = "Reparar computadora";
+                        this.lblDescription.Text = "・Es necesario que modifiques la descripción para reparar";
+                        this.txtClientName.ReadOnly = true;
+                        this.cmbType.Enabled = false;
+                        break;
+                    default:
+                        this.lblTitle.Text = "Agregar computadora";
+                        this.lblDescription.Text = "・Llena todos los campos para cargar la computadora";
+                        this.HandleButtons(false);
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -283,9 +303,16 @@ namespace FrmPrincipal
         /// </summary>
         private void FrmComputer_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(!(this.thread is null) && this.thread.IsAlive)
+            try
             {
-                this.thread.Abort();
+                if(!(this.thread is null) && this.thread.IsAlive)
+                {
+                    this.thread.Abort();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

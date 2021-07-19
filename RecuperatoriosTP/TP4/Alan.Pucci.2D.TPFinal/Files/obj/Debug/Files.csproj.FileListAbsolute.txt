@@ -29,3 +29,14 @@ C:\Users\alane\source\repos\tp_laboratorio_2\TP4\Alan.Pucci.2D.TPFinal\Files\obj
 C:\Users\alane\source\repos\tp_laboratorio_2\TP4\Alan.Pucci.2D.TPFinal\Files\obj\Debug\Files.csproj.CopyComplete
 C:\Users\alane\source\repos\tp_laboratorio_2\TP4\Alan.Pucci.2D.TPFinal\Files\obj\Debug\Files.dll
 C:\Users\alane\source\repos\tp_laboratorio_2\TP4\Alan.Pucci.2D.TPFinal\Files\obj\Debug\Files.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\bin\Debug\Files.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\bin\Debug\Files.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\bin\Debug\Entities.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\bin\Debug\Exceptions.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\bin\Debug\Entities.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\bin\Debug\Exceptions.pdb
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\obj\Debug\Files.csprojAssemblyReference.cache
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\obj\Debug\Files.csproj.CoreCompileInputs.cache
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\obj\Debug\Files.csproj.CopyComplete
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\obj\Debug\Files.dll
+C:\Users\alane\source\repos\tp_laboratorio_2\RecuperatoriosTP\TP4\Alan.Pucci.2D.TPFinal\Files\obj\Debug\Files.pdb

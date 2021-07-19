@@ -18,6 +18,11 @@ namespace FrmPrincipal
         CoreProcedure procedure = CoreProcedure.Instance;
         int showIndex;
         bool isXml;
+
+        /// <summary>
+        /// Constructor, loads computer from a db, initialize Technician
+        /// </summary>
+        /// <param name="tech">Technician to initialize</param>
         public FrmTechnicalComputers(Technician tech)
         {
             InitializeComponent();

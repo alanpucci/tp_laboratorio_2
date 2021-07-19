@@ -107,6 +107,9 @@ namespace Procedure
             }
         }
 
+        /// <summary>
+        /// Subscribe methods to their respective events
+        /// </summary>
         public static void HandleEvents()
         {
             AddComputerEvent += SaveDB;
@@ -179,6 +182,9 @@ namespace Procedure
             }
         }
 
+        /// <summary>
+        /// Shows "¡No te olvides de cambiar la descripción!" in a time lapse
+        /// </summary>
         public static void Loading()
         {
             string loading = "¡No te olvides de cambiar la descripción!";
@@ -304,6 +310,10 @@ namespace Procedure
             }
         }
 
+        /// <summary>
+        /// Saves the computer movement into the log
+        /// </summary>
+        /// <param name="computer"></param>
         private static void SaveTxt(object computer)
         {
             try
@@ -317,6 +327,10 @@ namespace Procedure
             }
         }
 
+        /// <summary>
+        /// Saves deleted computer into the log
+        /// </summary>
+        /// <param name="computer"></param>
         private static void SaveDeleteComputerTxt(object computer)
         {
             try
@@ -331,6 +345,10 @@ namespace Procedure
             }
         }
 
+        /// <summary>
+        /// Saves computers list in a XML
+        /// </summary>
+        /// <param name="computer"></param>
         public static void SaveXML(object computer)
         {
             try
@@ -344,6 +362,10 @@ namespace Procedure
             }
         }
 
+        /// <summary>
+        /// Saves computers list in the DB
+        /// </summary>
+        /// <param name="computer"></param>
         private static void SaveDB(object computer)
         {
             try
@@ -357,6 +379,10 @@ namespace Procedure
             }
         }
 
+        /// <summary>
+        /// Deletes computer from the DB
+        /// </summary>
+        /// <param name="computer"></param>
         private static void DeleteDB(object computer)
         {
             try
@@ -369,6 +395,10 @@ namespace Procedure
             }
         }
 
+        /// <summary>
+        /// Updates computer from the DB
+        /// </summary>
+        /// <param name="computer"></param>
         private static void UpdateDB(object computer)
         {
             try

@@ -12,12 +12,19 @@ namespace FrmPrincipal
 {
     public partial class FrmHelp : Form
     {
+        /// <summary>
+        /// Initialize the text to show
+        /// </summary>
+        /// <param name="text">Text to show</param>
         public FrmHelp(string text)
         {
             InitializeComponent();
             this.lblHelp.Text = text;
         }
 
+        /// <summary>
+        /// Closes the form
+        /// </summary>
         private void btnAccept_Click(object sender, EventArgs e)
         {
             this.Close();

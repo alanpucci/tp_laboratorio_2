@@ -17,6 +17,11 @@ namespace FrmPrincipal
     public partial class FrmUser : Form
     {
         User user;
+
+        /// <summary>
+        /// Constructor, initialize user
+        /// </summary>
+        /// <param name="user"></param>
         public FrmUser(User user)
         {
             InitializeComponent();

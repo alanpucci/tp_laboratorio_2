@@ -20,6 +20,11 @@ namespace FrmPrincipal
         int showIndex;
         ToDo toDo;
         bool isXml;
+
+        /// <summary>
+        /// Constructor, loads computers from a DB, initialize receptionist
+        /// </summary>
+        /// <param name="recepcionist"></param>
         public FrmRecepcionistComputers(Receptionist recepcionist)
         {
             InitializeComponent();

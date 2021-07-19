@@ -8,6 +8,11 @@ namespace Entities
 {
     public static class StateExtension
     {
+        /// <summary>
+        /// Split "PorReparar" and "PorEntregar" into "Por Reparar" and "Por Entregar" respectively 
+        /// </summary>
+        /// <param name="text"></param>
+        /// <returns></returns>
         public static string SplitState(this State text)
         {
             if (text.ToString().Length > 8)

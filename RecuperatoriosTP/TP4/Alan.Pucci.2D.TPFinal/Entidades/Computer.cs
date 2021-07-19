@@ -35,7 +35,7 @@ namespace Entities
         }
 
         /// <summary>
-        /// Constructor, initialize all attributes
+        /// Constructor, initialize all attributes except id, state and date
         /// </summary>
         /// <param name="clientName">ClientName to initialize</param>
         /// <param name="os">Operative system to initialize</param>
@@ -59,6 +59,20 @@ namespace Entities
             this.graphicCard = graphicCard;
         }
 
+        /// <summary>
+        /// Constructor, initiate all attributes
+        /// </summary>
+        /// <param name="id">Id to initialize</param>
+        /// <param name="clientName">Client name to initialize</param>
+        /// <param name="os">Operative system to initialize</param>
+        /// <param name="type">Computer type to initialize</param>
+        /// <param name="processor">Processor to initialize</param>
+        /// <param name="hardDisk">Hard disk to initialize</param>
+        /// <param name="ram">RAM to initialize</param>
+        /// <param name="desc">Description to initialize</param>
+        /// <param name="graphicCard">Graphic card to initialize</param>
+        /// <param name="state">State to initialize</param>
+        /// <param name="date">Date to initialize</param>
         public Computer(int id, string clientName, OS os, ComType type, Processor processor, HardDisk hardDisk, RAM ram, string desc, GraphicCard graphicCard, State state, DateTime date):this(clientName, os, type, processor, hardDisk, ram, desc, graphicCard)
         {
             this.id = id;
